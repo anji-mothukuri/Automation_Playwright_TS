@@ -1,6 +1,4 @@
 import { test, expect, BrowserContext } from '@playwright/test';
-import path from 'node:path';
-
 
 // let context: BrowserContext;
 // let page;

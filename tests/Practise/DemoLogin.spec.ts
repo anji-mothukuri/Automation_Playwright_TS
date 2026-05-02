@@ -11,7 +11,7 @@ test('demo using page.pause method', async({page})=>{
     await page.locator('[data-test="login-button"]').click();
 });
 
-test.only("demo using recording", async({page})=> {
+test("demo using recording", async({page})=> {
     await page.goto('https://auth.applitools.com/users/login?utm_term=&utm_subgroup=');
   await page.getByRole('textbox', { name: 'Enter email Enter password' }).click();
   await page.getByRole('textbox', { name: 'Enter email Enter password' }).fill('abcd');
