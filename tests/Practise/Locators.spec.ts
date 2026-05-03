@@ -12,5 +12,5 @@ test("Selectors and Locators", async ({page}) => {
     await page.locator('text=login').click();
     await page.locator("input:has-text('login')").click();
 
-    await page.pause();
+    // await page.pause();
 })

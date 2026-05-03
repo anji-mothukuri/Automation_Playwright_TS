@@ -4,7 +4,7 @@ test('demo using page.pause method', async({page})=>{
 
     await page.goto("https://www.saucedemo.com/");
 
-    await page.pause();
+    // await page.pause();
 
     await page.locator('[data-test="username"]').fill('abcd');
     await page.locator('[data-test="password"]').fill('password');
